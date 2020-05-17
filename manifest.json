@@ -11,7 +11,7 @@
   
     "content_scripts": [
       {
-        "matches": ["https://www.amazon.de/*"],
+        "matches": ["https://www.amazon.de/s*"], 
         "js": ["redborder2.js"]
       }
     ]
