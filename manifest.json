@@ -2,13 +2,14 @@
     "manifest_version": 2,
     "name": "Anti-Amazon-Addon",
     "version": "1.0",
-  
     "description": "Reminds you, whenever you visit the criminal website of Amazon",
-  
-    "icons": {
-      "48": "icons/border-48.png"
+    "icons": {"48": "logo.png"},
+
+    "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html"
     },
-  
+
     "content_scripts": [
       {
         "matches": ["https://www.amazon.de/s*"], 
